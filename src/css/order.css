@@ -1,4 +1,31 @@
 @media screen and (min-width: 375px) {
+.order-section {
+    padding-top: 670px;
+    padding-bottom: 40px;
+}
+.container {
+}
+.order-container {
+}
+.title {
+}
+.order-title {
+}
+.order-title-yellow-txt {
+    color: var();
+}
+.order-img {
+}
+.order-form {
+}
+.order-input {
+}
+.order-textarea {
+}
+.order-button {
+}
+.order-btn-icon {
+}
 }
 @media screen and (min-width: 768px) {
 }
