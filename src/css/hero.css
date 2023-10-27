@@ -1,3 +1,12 @@
+:root {
+  --gold-color: #ecd979;
+}
+.hero-title {
+}
+
+.hero-title span {
+  color: var(--gold-color);
+}
 @media screen and (min-width: 375px) {
 }
 @media screen and (min-width: 768px) {
