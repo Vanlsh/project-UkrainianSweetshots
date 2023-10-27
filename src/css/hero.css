@@ -1,16 +1,45 @@
-:root {
-  --gold-color: #ecd979;
+.section-hero {
+  padding: 60px 0 80px;
 }
+
+.hero-container {
+}
+.hero-wrraper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.hero-girl-img {
+}
+.hero-title-container {
+}
+
 .hero-title {
+  color: var(--);
+  font-size: 44px;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
 }
 
 .hero-title span {
-  color: var(--gold-color);
 }
+.hero-button {
+}
+.hero-sun {
+  display: none;
+}
+.hero-sun-img {
+}
+.hero-sun-text {
+}
+
 @media screen and (min-width: 375px) {
 }
 @media screen and (min-width: 768px) {
+  .hero-sun {
+    display: block;
+  }
 }
+
 @media screen and (min-width: 1280px) {
 }
 @media screen and (min-width: 1440px) {

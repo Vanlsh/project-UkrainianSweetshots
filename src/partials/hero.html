@@ -1,7 +1,15 @@
 <section class="section-hero">
   <div class="container hero-container">
     <div class="hero-wrraper">
-      <img src="" alt="" />
+      <img
+        srcset="./img/hero/herogirl.jpg 1x, ./img/hero/herogirl2x.jpg 2x"
+        src="./img/hero/herogirl.jpg"
+        alt="Girl in Shirt"
+        width="345"
+        height="545"
+        class="hero-girl-img"
+      />
+
       <div class="hero-title-container">
         <h1 class="hero-title">
           Reviving the traditional <span> Ukrainian</span> artistry in every
@@ -9,15 +17,15 @@
         </h1>
         <a class="hero-button" href="#"
           >Order
-          <svg></svg>
+          <svg class="hero-button-icon" width="26" height="10">
+            <use href="../img/icons.svg#icon-arrow"></use>
+          </svg>
         </a>
       </div>
     </div>
-    <div class="hero-images">
-      <div class="hero-sun">
-        <img class="hero-sun-img" src="" alt="" />
-        <p class="hero-sun-text">all embroidery is made by hand</p>
-      </div>
+    <div class="hero-sun">
+      <img class="hero-sun-img" src="" alt="" />
+      <p class="hero-sun-text">all embroidery is made by hand</p>
     </div>
   </div>
 </section>
