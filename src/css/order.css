@@ -12,7 +12,7 @@
 .order-title {
 }
 .order-title-yellow-txt {
-    color: var();
+    color: var(--gold-color);
 }
 .order-img {
 }
