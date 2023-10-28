@@ -28,7 +28,7 @@ a {
   overflow: hidden;
 }
 .title {
-  color: #fcf9f9;
+  color: var(--white-color);
   font-size: 32px;
   font-weight: 500;
   line-height: 1.37;
