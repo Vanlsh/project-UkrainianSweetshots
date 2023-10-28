@@ -1,52 +1,56 @@
 <section class="order-section">
   <div class="container order-container">
-    <h2 class="title order-title">
-      <span class="order-title-yellow-txt">Your order </span>is our
-      priority: Personalized approach and quality of service
-    </h2>
-    <img
-      class="order-img"
-      srcset="
-        ./img/order/order-content-pc-1x.jpg 1x,
-        ./img/order/order-content-pc-2x.jpg 2x
-      "
-      src="./img/order/order-content-pc-1x.jpg"
-      alt="людина у вишитій сорочці та сірій вишитій жилетці"
-      width="524"
-      height="521"
-    />
-    <form class="order-form" autocomplete="on">
-      <div class="order-input-wrap">
-        <input
-        class="order-input"
-        type="text"
-        name="order_username"
-        id="order_username"
-        placeholder="Enter your full name"
-      />
-      </div>
-      <div class="order-input-wrap">
-      <input
-        class="order-input"
-        type="email"
-        name="order_email"
-        id="order_email"
-        placeholder="Enter your email"
+    <div class="order-wraper">
+      <h2 class="title order-title">
+        <span class="order-title-yellow-txt">Your order </span>is our priority:
+        Personalized approach and quality of service
+      </h2>
+      <form class="order-form" autocomplete="on">
+        <div class="order-input-wrap">
+          <input
+            class="order-input"
+            type="text"
+            name="order_username"
+            id="order_username"
+            placeholder="Enter your full name"
+          />
+        </div>
+        <div class="order-input-wrap">
+          <input
+            class="order-input"
+            type="email"
+            name="order_email"
+            id="order_email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="order-textarea-wrap">
+          <textarea
+            class="order-textarea"
+            name="order-comments"
+            placeholder="Comments"
+            id="user-comments"
+          ></textarea>
+        </div>
+        <button class="order-button" type="submit">
+          Send<svg class="order-btn-icon" width="26" height="10">
+            <use href="./img/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <div class="order-img-wrap">
+      <img
+        class="order-img"
+        srcset="
+          ./img/order/order-content-pc-1x.jpg 1x,
+          ./img/order/order-content-pc-2x.jpg 2x
+        "
+        src="./img/order/order-content-pc-1x.jpg"
+        alt="людина у вишитій сорочці та сірій вишитій жилетці"
+        width="524"
+        height="521"
       />
     </div>
-    <div class="order-textarea-wrap">
-      <textarea
-        class="order-textarea"
-        name="order-comments"
-        placeholder="Comments"
-        id="user-comments"
-      ></textarea>
-    </div>
-      <button class="order-button" type="submit">
-        Send<svg class="order-btn-icon" width="26" height="10">
-          <use href="./img/icons.svg#icon-arrow"></use>
-        </svg>
-      </button>
-    </form>
   </div>
 </section>
