@@ -124,7 +124,7 @@
       url('../img/order/order-ornament-2x.png');
     background-repeat: no-repeat, no-repeat;
     background-position: top 50px center, bottom left;
-    background-size: 768px 776px, auto;
+    background-size: 768px 776px, 306px 484px;
   }
 
   .order-img {
@@ -143,10 +143,10 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .order-section {
-      background-image: url('../img/order/order-bg-gg-tab-2x.jpg');
-    }
-    .order-container {
-      background-image: url('../img/order/order-ornament-2x.png');
+      background-image: url(
+        '../img/order/order-bg-gg-tab-2x.jpg',
+        url('../img/order/order-ornament-2x.png')
+      );
     }
   }
 
