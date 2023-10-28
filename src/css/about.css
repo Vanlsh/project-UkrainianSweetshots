@@ -1,3 +1,39 @@
+.about{
+max-width: 375px;
+background-image: ;
+}
+
+.about-title{
+color: #FCF9F9;
+font-size: 32px;
+font-weight: 500;
+line-height: 1.38;
+letter-spacing: 0.03em;
+margin-top: 80px;
+margin-bottom: 40px;
+}
+
+.about-text{
+color: rgba(252, 249, 249, 0.40);
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.04em;
+max-width: 335px;
+}
+
+.about-text-introduction{
+padding-bottom: 20px;
+}
+
+.about-text-description{
+padding-bottom: 50px;
+}
+
+.about-img{
+
+}
+
 @media screen and (min-width: 375px) {
 }
 @media screen and (min-width: 768px) {
