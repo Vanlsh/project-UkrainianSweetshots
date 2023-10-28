@@ -22,10 +22,11 @@
   line-height: normal;
 }
 
-.testimonials-box {
-  display: flex;
-}
-
 .testimonials-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-item {
 }
