@@ -2,15 +2,15 @@
 }
 
 .collection-container {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 18px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url(../img/collection/Background-img-collection.png);
   background-repeat: no-repeat;
-  background-position: top 373px left 0;
+  background-position: top 316px left 0;
 }
 .collection-title {
   margin-bottom: 40px;
@@ -19,7 +19,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-bottom: 80px;
 }
 .collection-list-item {
 }
