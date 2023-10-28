@@ -8,21 +8,13 @@ background-repeat: no-repeat;
 }
 
 .about-title{
-color: #FCF9F9;
-font-size: 32px;
-font-weight: 500;
-line-height: 1.38;
-letter-spacing: 0.03em;
 margin-top: 80px;
 margin-bottom: 40px;
 }
 
 .about-text{
-color: rgba(252, 249, 249, 0.40);
-font-size: 14px;
-font-weight: 400;
 line-height: normal;
-letter-spacing: 0.04em;
+letter-spacing: -0.04em;
 max-width: 335px;
 }
 
