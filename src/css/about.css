@@ -1,10 +1,11 @@
-.about{
+/* .about{
 
-}
+} */
 
 .about-container{
-background-image: url(./img/elements.jpg);
+background-image: url(../img/elements-mob.png);
 background-repeat: no-repeat;
+background-position: right -125px bottom -62px;
 }
 
 .about-title{
@@ -26,9 +27,9 @@ padding-bottom: 20px;
 padding-bottom: 50px;
 }
 
-/* .about-img{
-
-} */
+.about-img{
+margin-bottom: 164px;
+}
 
 @media screen and (min-width: 375px) {
 }
