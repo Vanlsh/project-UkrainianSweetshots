@@ -1,3 +1,35 @@
+.about{
+
+}
+
+.about-container{
+background-image: url(./img/elements.jpg);
+background-repeat: no-repeat;
+}
+
+.about-title{
+margin-top: 80px;
+margin-bottom: 40px;
+}
+
+.about-text{
+line-height: normal;
+letter-spacing: -0.04em;
+max-width: 335px;
+}
+
+.about-text-introduction{
+padding-bottom: 20px;
+}
+
+.about-text-description{
+padding-bottom: 50px;
+}
+
+/* .about-img{
+
+} */
+
 @media screen and (min-width: 375px) {
 }
 @media screen and (min-width: 768px) {
