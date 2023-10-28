@@ -1,3 +1,6 @@
+.our-collection {
+}
+
 .collection-container {
   padding-top: 75px;
   padding-bottom: 75px;
@@ -5,9 +8,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./img/icons.svg#icon-background-col);
+  background-image: url(../img/collection/Background-img-collection.png);
   background-repeat: no-repeat;
-  background-position: top 373px left -127px;
+  background-position: top 373px left 0;
 }
 .collection-title {
   margin-bottom: 40px;
