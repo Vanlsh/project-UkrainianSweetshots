@@ -5,6 +5,9 @@ Powered by SVGO v3.0.0
 
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
+  <symbol id="icon-nav" viewBox="0 0 48 32">
+<path fill="none" stroke="#ecd979" style="stroke: var(--color1, #ecd979)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M8.639 5.455h38.028M8.639 24.848h38.028M20.116 15.152h26.551"></path>
+</symbol>
     <symbol id="icon-arrow" viewBox="0 0 32 32">
       <path d="M27.766 17.957a42.712 42.712 0 0 1-.337-3.49c-.022-1.04.017-1.94.119-2.7L2.255 26.37l-1.197-2.073L26.351 9.694a22.284 22.284 0 0 1-2.426-1.297A48.166 48.166 0 0 1 21.1 6.409l1.519-.877c3.209 1.349 6.143 2.024 8.804 2.023l.513.888c-1.35 2.271-2.233 5.149-2.65 8.636l-1.519.877z"/>
     </symbol>
