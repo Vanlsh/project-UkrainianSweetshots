@@ -101,12 +101,18 @@
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:active,
 .order-button:active,
 .order-button:active {
+  border-color: var(--gold-color);
+  outline: none;
+}
+.order-button:focus-visible {
+  outline: none;
   border-color: var(--gold-color);
 }
 
@@ -150,7 +156,7 @@
     }
   }
 
-  .order-wraper {
+  .order-wrapper {
     align-self: flex-start;
   }
 
