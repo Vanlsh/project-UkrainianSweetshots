@@ -1,6 +1,10 @@
 .about{
-max-width: 375px;
-background-image: ;
+
+}
+
+.about-container{
+background-image: url(./img/elements.jpg);
+background-repeat: no-repeat;
 }
 
 .about-title{
@@ -30,9 +34,9 @@ padding-bottom: 20px;
 padding-bottom: 50px;
 }
 
-.about-img{
+/* .about-img{
 
-}
+} */
 
 @media screen and (min-width: 375px) {
 }
