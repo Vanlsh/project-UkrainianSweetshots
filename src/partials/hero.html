@@ -1,24 +1,43 @@
 <section class="section-hero">
   <div class="container hero-container">
     <div class="hero-wrraper">
-      <img
-        srcset="./img/hero/herogirl.jpg 1x, ./img/hero/herogirl2x.jpg 2x"
-        src="./img/hero/herogirl.jpg"
-        alt="Girl in Shirt"
-        width="345"
-        height="545"
-        class="hero-girl-img"
-      />
+      <picture>
+        <source
+          srcset="
+            ./img/hero/herogirl-desktop.jpg   1x,
+            ./img/hero/herogirl-desktop2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/hero/herogirl-tab.jpg   1x,
+            ./img/hero/herogirl-tab2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <img
+          srcset="
+            ./img/hero/herogirl-mob.jpg   1x,
+            ./img/hero/herogirl-mob2x.jpg 2x
+          "
+          src="./img/hero/herogirl-mob.jpg"
+          alt="дівчина в сірій вишитій сорочці"
+          width="335"
+          height="545"
+          class="hero-girl-img"
+        />
+      </picture>
 
       <div class="hero-title-container">
         <h1 class="hero-title">
-          Reviving the traditional <span> Ukrainian</span> artistry in every
+          Reviving the traditional<span> Ukrainian</span> artistry in every
           stitch.
         </h1>
         <a class="hero-button" href="#"
           >Order
-          <svg class="hero-button-icon" width="26" height="10">
-            <use href="../img/icons.svg#icon-arrow"></use>
+          <svg class="hero-button-icon" width="27" height="19">
+            <use href="./img/icons.svg#icon-arrow"></use>
           </svg>
         </a>
       </div>
