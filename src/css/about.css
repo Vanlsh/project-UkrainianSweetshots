@@ -5,12 +5,7 @@
     background-position: right bottom;
 }
 
-.about-container{
-
-}
-
 .about-title{
-margin-top: 80px;
 margin-bottom: 40px;
 }
 
@@ -28,12 +23,6 @@ padding-bottom: 20px;
 padding-bottom: 50px;
 }
 
-.about-img{
-
-}
-
-@media screen and (min-width: 375px) {
-}
 @media screen and (min-width: 768px) {
 }
 @media screen and (min-width: 1280px) {
