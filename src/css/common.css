@@ -1,7 +1,7 @@
 body {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  color: rgba(67, 68, 85, 1);
+  color: var(--text-color);
   background-color: #1c2225;
   font-size: 14px;
   letter-spacing: -0.04em;
