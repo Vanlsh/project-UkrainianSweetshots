@@ -1,8 +1,22 @@
-@media screen and (min-width: 375px) {
 .order-section {
     padding-top: 670px;
     padding-bottom: 40px;
+    background-image: url("../img/order/order-bg-gg-mob-1x.jpg");
+    background-repeat: no-repeat;
+    background-position: top 40px center;
+    background-size: auto 550px;
 }
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .order-section {
+    background-image: url("../img/order/order-bg-gg-mob-2x.jpg");
+  }
+}
+
+
+
 .container {
 }
 .order-container {
@@ -15,17 +29,102 @@
     color: var(--gold-color);
 }
 .order-img {
+    display: none;
 }
 .order-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
 }
+
+.order-input-wrap{
+    padding-top: 20px;
+}
+
+.order-textarea-wrap{
+padding: 40px 0;
+}
+
 .order-input {
+height: 47px;
+width: 100%;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+padding: 14px 16px;
+background-color: inherit;
+color: var(--white-color);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.02em;
+outline: transparent;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.order-input:focus-within {
+    border-color: var(--gold-color);
+}
+
+
 .order-textarea {
+height: 196px;
+width: 100%;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+padding: 14px 16px;
+background-color: inherit;
+color: var(--white-color);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.02em;
+outline: transparent;
+resize: none;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.order-textarea:focus-within {
+    border-color: var(--gold-color);
+}
+
+
 .order-button {
+display: flex;
+gap: 10px;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+padding: 14px 36px;
+min-width: 145px;
+height: 49px;
+background-color: inherit;
+color: var(--white, #FCF9F9);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.56px;
+text-transform: uppercase;
+margin-left: auto;
+margin-right: auto;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.order-button:active, .order-button:active, .order-button:active {
+    border-color: var(--gold-color);
+    
+}
+
 .order-btn-icon {
+    fill: var(--yellow, #ECD979);
+    height: 100%;
+    
 }
+@media screen and (min-width: 375px) {
+
 }
 @media screen and (min-width: 768px) {
 }

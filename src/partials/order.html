@@ -16,13 +16,16 @@
       height="521"
     />
     <form class="order-form" autocomplete="on">
-      <input
+      <div class="order-input-wrap">
+        <input
         class="order-input"
         type="text"
         name="order_username"
         id="order_username"
         placeholder="Enter your full name"
       />
+      </div>
+      <div class="order-input-wrap">
       <input
         class="order-input"
         type="email"
@@ -30,12 +33,15 @@
         id="order_email"
         placeholder="Enter your email"
       />
+    </div>
+    <div class="order-textarea-wrap">
       <textarea
-        class="order-input order-textarea"
+        class="order-textarea"
         name="order-comments"
         placeholder="Comments"
         id="user-comments"
       ></textarea>
+    </div>
       <button class="order-button" type="submit">
         Send<svg class="order-btn-icon" width="26" height="10">
           <use href="./img/icons.svg#icon-arrow"></use>
