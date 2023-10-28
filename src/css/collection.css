@@ -5,8 +5,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-image: url(../img/icons.svg#icon-background);
-  background-repeat: no-repeat; */
+  background-image: url(./img/icons.svg#icon-background-col);
+  background-repeat: no-repeat;
+  background-position: top 373px left -127px;
 }
 .collection-title {
   margin-bottom: 40px;
