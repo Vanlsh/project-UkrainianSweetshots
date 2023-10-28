@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-bottom: 80px;
 }
 .collection-list-item {
 }
@@ -45,6 +46,8 @@
   line-height: 1; /* 100% */
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+.collection-down-img {
 }
 @media screen and (min-width: 768px) {
 }
