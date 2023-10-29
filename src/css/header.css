@@ -1,3 +1,10 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
 .header-container {
   max-width: 100%;
   margin-top: 20px;
@@ -57,8 +64,31 @@
 .header-menu-svg {
   fill: #fcf9f9;
 }
+.header-mob-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 1000;
+  padding: 20px 20px 0 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
 
-@media screen and (min-width: 375px) {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: auto;
+}
+.header-mob-link {
+  color: #1c2225;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16em;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 768px) {
 }
