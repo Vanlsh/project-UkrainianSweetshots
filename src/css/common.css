@@ -1,13 +1,17 @@
 body {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  color: rgba(67, 68, 85, 1);
+  color: var(--text-color);
   background-color: #1c2225;
-  font-size: 16px;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+}
+a {
+  display: block;
 }
 
 .container {
-  max-width: 325px;
+  max-width: 375px;
   padding: 0 20px;
   margin-left: auto;
   margin-right: auto;
@@ -27,7 +31,7 @@ body {
 }
 
 .title {
-  color: #fcf9f9;
+  color: var(--white-color);
   font-size: 32px;
   font-weight: 500;
   line-height: 1.37;
@@ -35,8 +39,11 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
   .container {
-    max-width: 704px;
+    max-width: 768px;
     padding: 0 32px;
   }
   .title {
@@ -47,13 +54,13 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1082px;
+    max-width: 1112px;
     padding: 0 15px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1240px;
+    max-width: 1270px;
   }
 }
