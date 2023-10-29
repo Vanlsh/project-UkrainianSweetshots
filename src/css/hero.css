@@ -1,3 +1,5 @@
+/* -------------------mobile-style------------------ */
+
 .section-hero {
   padding: 60px 0 40px;
 }
@@ -54,6 +56,10 @@
   border-color: var(--gold-color);
 }
 
+.hero-button:focus-visible {
+  outline: none;
+}
+
 .hero-girl-img {
   border-radius: 4px;
 }
@@ -66,12 +72,30 @@
 .hero-sun-text {
 }
 
-@media screen and (min-width: 375px) {
-}
+/* -----------------------------768px--------------------- */
 @media screen and (min-width: 768px) {
-  .hero-sun {
-    display: block;
+  .hero-container {
+    display: flex;
+    background-image: url('./img/hero/heroarm.png');
+    background-repeat: no-repeat;
+    background-position: bottom -100px right 23px;
   }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-container {
+    background-image: url('./img/hero/heroarm2x.png');
+  }
+}
+
+.section-hero {
+  padding: 80px 0 50px;
+}
+
+.hero-sun {
+  display: block;
 }
 
 @media screen and (min-width: 1280px) {
