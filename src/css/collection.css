@@ -95,6 +95,19 @@
     padding-bottom: 75px;
   }
 
+  .collection-container {
+    background-image: url(../img/collection/Background-img-collection-desktop.png);
+    background-position: top 221px left 0;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .collection-container {
+      background-image: url(../img/collection/Background-img-collection-desktop-2x.png);
+      background-size: 169px 300px;
+    }
+  }
   .collection-list-item {
     width: calc((100% - 40px) / 3);
   }
