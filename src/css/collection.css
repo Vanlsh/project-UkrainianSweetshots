@@ -50,11 +50,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .collection-title {
-    font-size: 44px;
-    font-weight: 500;
-    line-height: 1.45; /* 145.455% */.
-    letter-spacing: -0.03em;
+  .collectiom-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .collection-list-item {
+    width: calc((100% - 20px) / 2);
   }
 }
 
@@ -62,5 +65,3 @@
 }
 @media screen and (min-width: 1440px) {
 }
-
-
