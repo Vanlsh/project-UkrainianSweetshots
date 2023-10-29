@@ -21,7 +21,7 @@
 }
 
 .testimonials-item {
-  width: 100%;
+  /* width: 100%; */
   border-radius: 4px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   padding: 54px 18px 18px 18px;
