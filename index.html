@@ -19,8 +19,8 @@
     />
     <title>Ukrainian Sweet Shots</title>
     
-    <script type="module" crossorigin src="/project-UkrainianSweetshots/assets/index-9bf6a698.js"></script>
-    <link rel="stylesheet" href="/project-UkrainianSweetshots/assets/index-2e072a8a.css">
+    <script type="module" crossorigin src="/project-UkrainianSweetshots/assets/index-59018dde.js"></script>
+    <link rel="stylesheet" href="/project-UkrainianSweetshots/assets/index-aa49cb2c.css">
   </head>
   <body>
     <header class="header">hello world</header>
@@ -28,8 +28,8 @@
     <main>
       <section class="section-hero">
   <div class="container hero-container">
-    <div class="hero-wrraper">
-      <picture>
+    <div class="hero-wrapper">
+      <picture class="hero-img-girl">
         <source
           srcset="/project-UkrainianSweetshots/assets/herogirl-desktop-639b83b1.jpg 1x, /project-UkrainianSweetshots/assets/herogirl-desktop2x-397ce74b.jpg 2x"
           media="(min-width: 1280px)"
@@ -38,13 +38,14 @@
           srcset="/project-UkrainianSweetshots/assets/herogirl-tab-06c7d5c8.jpg 1x, /project-UkrainianSweetshots/assets/herogirl-tab2x-a8b60a13.jpg 2x"
           media="(min-width: 768px)"
         />
+        <source
+          srcset="/project-UkrainianSweetshots/assets/herogirl-mob-d64128b3.jpg 1x, /project-UkrainianSweetshots/assets/herogirl-desktop2x-397ce74b.jpg 2x"
+          media="(max-width: 767px)"
+        />
         <img
           srcset="/project-UkrainianSweetshots/assets/herogirl-desktop-639b83b1.jpg 1x, /project-UkrainianSweetshots/assets/herogirl-desktop2x-397ce74b.jpg 2x"
           src="/project-UkrainianSweetshots/assets/herogirl-desktop-639b83b1.jpg"
           alt="дівчина в сірій вишитій сорочці"
-          width="335"
-          height="545"
-          class="hero-girl-img"
         />
       </picture>
 
@@ -62,7 +63,14 @@
       </div>
     </div>
     <div class="hero-sun">
-      <img class="hero-sun-img" src="" alt="" />
+      <img
+        class="hero-sun-img"
+        srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAMAAABEQrEuAAAAAXNSR0IArs4c6QAAAFRQTFRF7Nl538500sJv0sJuxbdpxbZpuKtkq6BfnpVZnpRanpRZkYlUkYhUhH5PhH1Pd3NKd3JKamdEamZFamZEXVs/UFA6Q0U1Q0Q1NjkwNjkvKS0qHCIlVCuEzwAAAUFJREFUeNqt1tFygjAQheFDIwGbios1luy+/3sWxhRhBumJ7XftLzNENwvb1uNi22Cb1MEpU8gpf6wD0OW4k53CwUUbDRhVyUbR4W2nQP7qFpPGTANGvxRwtyvuPqPDRJ8WCdvS0+KLL/JjI7ZFm6g+igGofZAYsC3EPjQO0LnQCpQ0FxbAONqjiGDERWGeCA62LIQoLqtCiWJ9HkIUoj9FEl+B4iWZQRxKOEGDMgcMhc9IsKEGr1aDmbZgtZrf7gmc8DgPcGwuAjhdLvQdrKNOhRa9q2QvnEeNMs0LvyuzQTwolZdU9P8462omEoXasuiJQlYF88a8/WletWB8rCY1o9K5UMA1od+Z7RJ8vZrUqsT9Ycrfard/vAcVExd73F1vDsTtHNSsyTdMHhrMzlBhxOwM5+VeciL2Em73Kd6vvgGF0F7ynUe/JwAAAABJRU5ErkJggg== 1x, data:image/png;base64,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 2x"
+        src="../img/hero/sun.png"
+        alt="дванадцяти кутна золота зірка"
+        width="52"
+        height="51"
+      />
       <p class="hero-sun-text">all embroidery is made by hand</p>
     </div>
   </div>
