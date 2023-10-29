@@ -1,8 +1,85 @@
-@media screen and (min-width: 375px) {
+.footer {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(252, 249, 249, 0.10);
 }
-@media screen and (min-width: 768px) {
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 292px;
+    background-color: transparent;
+    background-image: url(../img/footer/elements-mob.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
 }
-@media screen and (min-width: 1280px) {
+
+@media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .footer-container {
+        background-image: url(../img/footer/elements-mob-2x.png);
+    }
 }
-@media screen and (min-width: 1440px) {
+
+.footer-navigation {
+    display: flex;
+    align-items: flex-start;
+    max-width: 280px;
 }
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 40px;
+}
+
+.footer-menu-item {
+    width: calc((100% - 40px) / 2);
+}
+
+.first {}
+
+.second {
+    order: 1;
+}
+
+.third {}
+
+.fourth {
+    order: 2;
+}
+
+.footer-menu-link {
+    display: inline-flex;
+    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+    color: var(--gold-color);
+}
+
+.footer-text {
+    min-width: 335px;
+    color: var(--white-color);
+    font-size: 44px;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+}
+
+.footer-text-span {
+    color: var(--gold-color);
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1280px) {}
+
+@media screen and (min-width: 1440px) {}
