@@ -1,6 +1,5 @@
 .order-section {
   padding-top: 670px;
-  padding-bottom: 40px;
   background-image: url('../img/order/order-bg-gg-mob-1x.jpg');
   background-repeat: no-repeat;
   background-position: top 40px center;
@@ -215,7 +214,11 @@
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 289px 484px;
-    padding-bottom: 119px;
+    padding: 0;
+  }
+
+  .order-img-wrap {
+    max-width: 524px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -225,6 +228,10 @@
       background-image: url('../img/order/order-bg-gg-pc-2x.jpg'),
         url('../img/order/order-ornament-pc-2x.png');
     }
+  }
+
+  .order-wrapper {
+    flex-grow: 1;
   }
 }
 
