@@ -67,7 +67,7 @@
 }
 
 .footer-text {
-    min-width: 335px;
+    width: 100%;
     color: var(--white-color);
     font-size: 44px;
     line-height: 1.23;
