@@ -40,17 +40,25 @@
       </form>
     </div>
     <div class="order-img-wrap">
-      <img
-        class="order-img"
-        srcset="
-          ./img/order/order-content-pc-1x.jpg 1x,
-          ./img/order/order-content-pc-2x.jpg 2x
-        "
-        src="./img/order/order-content-pc-1x.jpg"
-        alt="людина у вишитій сорочці та сірій вишитій жилетці"
-        width="524"
-        height="521"
-      />
+      <picture class="order-img">
+        <source
+          srcset="
+            ../img/order/order-content-pc-1x.jpg 1x,
+            ../img/order/order-content-pc-2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <img
+          srcset="
+            ./img/order/order-content-tab-1x.jpg 1x,
+            ./img/order/order-content-tab-2x.jpg 2x
+          "
+          src="./img/order/order-content-tab-1x.jpg"
+          alt="людина у вишитій сорочці та сірій вишитій жилетці"
+          width="638"
+          height="521"
+        />
+      </picture>
     </div>
   </div>
 </section>
