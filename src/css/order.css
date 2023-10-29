@@ -213,6 +213,12 @@
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-items: flex-start;
+    gap: 50px;
+  }
+
+  .order-wrapper,
+  .order-img-wrap {
+    flex-basis: calc((100% - 50px) / 2);
   }
 }
 
