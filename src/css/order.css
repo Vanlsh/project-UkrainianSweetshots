@@ -91,7 +91,7 @@
   min-width: 145px;
   height: 49px;
   background-color: inherit;
-  color: var(--white, #fcf9f9);
+  color: var(--white-color);
   font-family: Manrope;
   font-size: 14px;
   font-style: normal;
@@ -105,8 +105,8 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order-button:active,
-.order-button:active,
+.order-button:focus,
+.order-button:hover,
 .order-button:active {
   border-color: var(--gold-color);
   outline: none;
@@ -117,7 +117,7 @@
 }
 
 .order-btn-icon {
-  fill: var(--yellow, #ecd979);
+  fill: var(--gold-color);
   height: 100%;
 }
 @media screen and (min-width: 375px) {
@@ -149,19 +149,22 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .order-section {
-      background-image: url(
-        '../img/order/order-bg-gg-tab-2x.jpg',
-        url('../img/order/order-ornament-2x.png')
-      );
+      background-image: url('../img/order/order-bg-gg-tab-2x.jpg'),
+        url('../img/order/order-ornament-2x.png');
     }
   }
 
   .order-wrapper {
-    align-self: flex-start;
+    margin-right: auto;
   }
 
   .order-title {
     max-width: 542px;
+    line-height: 1.31;
+  }
+
+  .order-title-yellow-txt {
+    line-height: 1.31;
   }
 
   .order-input {
@@ -178,14 +181,40 @@
     margin-left: 0;
     margin-right: auto;
     font-size: 16px;
+    padding: 14px 39px;
   }
 
   .order-img-wrap {
-    align-self: flex-end;
+    margin-left: auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  .order-section {
+    padding-top: 1000px;
+    padding-bottom: 75px;
+    background-image: url('../img/order/order-bg-gg-pc-1x.jpg'),
+      url('../img/order/order-ornament-2x.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 50px center, bottom left;
+    background-size: 1282px 776px, 306px 484px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .order-section {
+      background-image: url('../img/order/order-bg-gg-pc-2x.jpg'),
+        url('../img/order/order-ornament-2x.png');
+    }
+  }
+
+  .order-container {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
 }
+
 @media screen and (min-width: 1440px) {
 }
