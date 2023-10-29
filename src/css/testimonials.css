@@ -8,7 +8,7 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 1.5;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .testimonials-text {
@@ -34,7 +34,7 @@
 }
 
 .testimonials-title {
-  margin-bottom: 40px;
+  margin-bottom: 64px;
 }
 
 .testimonials-item {
@@ -43,10 +43,9 @@
 
 .testimonials-img {
   position: absolute;
-  top: 50px;
+  top: -24px;
   left: 50%;
   transform: translate(-50%);
-  border-radius: 50%;
 }
 
 @media screen and (min-width: 768px) {
@@ -55,9 +54,3 @@
 }
 @media screen and (min-width: 1440px) {
 }
-
-/* .testimonials-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
