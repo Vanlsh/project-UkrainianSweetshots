@@ -105,7 +105,6 @@
   .hero-container {
     display: flex;
     justify-content: space-between;
-    padding: 0 32px;
     background-image: url('../img/hero/heroarm.png');
     background-repeat: no-repeat;
     background-position: bottom -100px right 23px;
