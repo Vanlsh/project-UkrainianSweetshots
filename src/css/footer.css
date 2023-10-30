@@ -80,6 +80,9 @@
 @media screen and (min-width: 768px) {
 
     .footer {
+        display: block;
+        padding-right: 215px;
+        padding-bottom: 40px;
         background-image: url(../img/footer/elements-tab.png);
         background-repeat: no-repeat;
         background-position: bottom right;
@@ -96,10 +99,8 @@
 
     .footer-container {
         gap: 80px;
-        padding-right: 215px;
-        padding-bottom: 40px;
+        padding-bottom: unset;
         background-image: none;
-        
     }
 
     .footer-navigation {
@@ -124,7 +125,7 @@
     }
         
     .footer-text {
-        min-width: 521px;
+        max-width: 521px;
         font-size: 54px;
         line-height: 1.19;
     }
