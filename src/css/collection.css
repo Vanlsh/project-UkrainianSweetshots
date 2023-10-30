@@ -16,7 +16,7 @@
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .collection-container {
+  .our-collection {
     background-image: url(../img/collection/Background-img-collection-2x.png);
     background-size: 72px 177px;
   }
@@ -73,7 +73,7 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .collection-container {
+    .our-collection {
       background-image: url(../img/collection/Background-img-collection-tablet-2x.png);
       background-size: 114px 300px;
     }
@@ -103,7 +103,7 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .collection-container {
+    .our-collection {
       background-image: url(../img/collection/Background-img-collection-desktop-2x.png);
       background-size: 169px 300px;
     }
