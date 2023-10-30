@@ -86,6 +86,7 @@
     font-weight: 400;
     line-height: 1.18;
     letter-spacing: -0.03em;
+    margin-bottom: 40px;
   }
   .hero-girl {
     width: 413px;
@@ -132,14 +133,15 @@
   }
   .hero-title-container {
     max-width: 518px;
+    padding-top: 94px;
   }
   .hero-title {
+    line-height: 1.185;
     width: 100%;
   }
   .hero-wrapper {
     padding-top: 0;
     flex-direction: row;
-    align-items: center;
     gap: 40px;
   }
   .hero-girl {
@@ -155,4 +157,16 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .hero-title {
+    font-size: 64px;
+    line-height: 1.156;
+  }
+
+  .hero-sun {
+    margin-top: 66px;
+  }
+  .hero-title-container {
+    max-width: 632px;
+    padding-top: 66px;
+  }
 }
