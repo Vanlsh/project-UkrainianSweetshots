@@ -50,6 +50,22 @@
 }
 
 @media screen and (min-width: 768px) {
+  .testimonials-list {
+    display: flex;
+    gap: 32px;
+  }
+
+  .testimonials-item {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+
+  .testimonials-item:not(:nth-child(3)) {
+    display: block;
+  }
+
+  .testimonials {
+    padding: 100px 0;
+  }
 }
 @media screen and (min-width: 1280px) {
 }
