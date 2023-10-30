@@ -4,14 +4,11 @@
   padding: 60px 0 40px;
 }
 
-.hero-container {
-}
 .hero-wrapper {
   display: flex;
   flex-direction: column-reverse;
 }
-.hero-girl-img {
-}
+
 .hero-title-container {
   margin-bottom: 40px;
 }
@@ -130,8 +127,6 @@
 }
 /* ---------------------------1280px----------------------- */
 @media screen and (min-width: 1280px) {
-  .hero-container {
-  }
   .hero-title-container {
     max-width: 518px;
     padding-top: 94px;
