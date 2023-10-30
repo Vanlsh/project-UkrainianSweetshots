@@ -40,13 +40,9 @@
     width: calc((100% - 40px) / 2);
 }
 
-.first {}
-
 .second {
     order: 1;
 }
-
-.third {}
 
 .fourth {
     order: 2;
@@ -153,4 +149,15 @@
     }
 }
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+    .footer {
+        background-image: url(../img/footer/elements-desk1440.png);
+    }
+    
+    @media (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .footer {
+            background-image: url(../img/footer/elements-desk1440-2x.png);
+        }
+    }
+}
