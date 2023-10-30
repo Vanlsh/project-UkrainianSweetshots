@@ -1,6 +1,9 @@
 .our-collection {
   padding-top: 18px;
   padding-bottom: 40px;
+  background-image: url(../img/collection/Background-img-collection.png);
+  background-repeat: no-repeat;
+  background-position: top 298px left 0;
 }
 
 .collection-container {
@@ -8,9 +11,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/collection/Background-img-collection.png);
-  background-repeat: no-repeat;
-  background-position: top 298px left 0;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -63,9 +63,6 @@
   .our-collection {
     padding-top: 50px;
     padding-bottom: 50px;
-  }
-
-  .collection-container {
     background-image: url(../img/collection/Background-img-collection-tablet.png);
     background-position: top 221px left 0;
   }
@@ -93,11 +90,8 @@
   .our-collection {
     padding-top: 70px;
     padding-bottom: 75px;
-  }
-
-  .collection-container {
     background-image: url(../img/collection/Background-img-collection-desktop.png);
-    background-position: top 221px left -141px;
+    background-position: top 291px left 0;
   }
 
   @media (min-device-pixel-ratio: 2),
