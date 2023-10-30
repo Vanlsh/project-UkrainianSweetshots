@@ -119,19 +119,15 @@
 @media screen and (min-width: 768px) {
   .order-section {
     padding-top: 950px;
-    padding-bottom: 0;
-    background-image: url('../img/order/order-bg-gg-tab-1x.jpg');
-    background-repeat: no-repeat;
-    background-position: top 50px center;
-    background-size: 768px 776px;
+    padding-bottom: 79px;
+    background-image: url('../img/order/order-bg-gg-tab-1x.jpg'),
+      url('../img/order/order-ornament.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 50px center, bottom left;
+    background-size: 768px 776px, 340px 484px;
   }
 
   .order-container {
-    background-image: url('../img/order/order-ornament.png');
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    background-size: 340px 484px;
-    padding-bottom: 79px;
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -147,11 +143,8 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .order-section {
-      background-image: url('../img/order/order-bg-gg-tab-2x.jpg');
-    }
-
-    .order-container {
-      background-image: url('../img/order/order-ornament-2x.png');
+      background-image: url('../img/order/order-bg-gg-tab-2x.jpg'),
+        url('../img/order/order-ornament-2x.png');
     }
   }
 
@@ -195,21 +188,18 @@
   .order-section {
     padding-top: 1000px;
     padding-bottom: 0;
-    background-image: url('../img/order/order-bg-gg-pc-1x.jpg');
-    background-repeat: no-repeat;
-    background-position: top 75px center;
-    background-size: 1282px 776px;
+    background-image: url('../img/order/order-bg-gg-pc-1x.jpg'),
+      url('../img/order/order-ornament-pc.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 75px center, bottom left;
+    background-size: 1282px 776px, 289px 484px;
   }
 
   .order-container {
+    max-width: 1146px;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     gap: 50px;
-    background-image: url('../img/order/order-ornament-pc.png');
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    background-size: 289px 484px;
-    padding: 0;
   }
 
   .order-img-wrap {
@@ -231,4 +221,29 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .order-section {
+    padding-top: 1000px;
+    padding-bottom: 0;
+    background-image: url('../img/order/order-bg-gg-pcuw-1x.jpg'),
+      url('../img/order/order-ornament-pcuw.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 75px center, bottom left;
+    background-size: 1440px 776px, 289px 484px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .order-section {
+      background-image: url('../img/order/order-bg-gg-pcuw-2x.jpg'),
+        url('../img/order/order-ornament-pcuw-2x.png');
+    }
+  }
+
+  .order-container {
+    max-width: 1270px;
+  }
+  .order-title {
+    max-width: 666px;
+  }
 }
