@@ -67,7 +67,6 @@
 }
 
 .footer-text {
-    width: 100%;
     color: var(--white-color);
     font-size: 44px;
     line-height: 1.23;
@@ -78,7 +77,58 @@
     color: var(--gold-color);
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    .footer {
+        display: block;
+        padding-bottom: 40px;
+        background-image: url(../img/footer/elements-tab.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: contain;
+    }
+
+    @media (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .footer {
+            background-image: url(../img/footer/elements-tab-2x.png);
+        }
+    }
+    
+
+    .footer-container {
+        gap: 80px;
+        padding-bottom: unset;
+        background-image: none;
+    }
+
+    .footer-navigation {
+        max-width: 478px;
+    }
+
+    .footer-menu {
+        flex-wrap: nowrap;
+        gap: 25px;
+    }
+
+    .footer-menu-item {
+        width: unset;
+    }
+
+    .second {
+        order: 0;
+    }
+    
+    .fourth {
+        order: 0;
+    }
+        
+    .footer-text {
+        max-width: 521px;
+        font-size: 54px;
+        line-height: 1.19;
+    }
+}
 
 @media screen and (min-width: 1280px) {}
 
