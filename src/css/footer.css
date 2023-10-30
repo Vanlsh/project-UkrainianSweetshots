@@ -40,13 +40,9 @@
     width: calc((100% - 40px) / 2);
 }
 
-.first {}
-
 .second {
     order: 1;
 }
-
-.third {}
 
 .fourth {
     order: 2;
@@ -66,8 +62,11 @@
     color: var(--gold-color);
 }
 
+.footer-menu-link:focus-visible {
+    outline: none;
+}
+
 .footer-text {
-    min-width: 335px;
     color: var(--white-color);
     font-size: 44px;
     line-height: 1.23;
@@ -78,8 +77,91 @@
     color: var(--gold-color);
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
 
-@media screen and (min-width: 1280px) {}
+    .footer {
+        display: block;
+        padding-bottom: 40px;
+        background-image: url(../img/footer/elements-tab.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: contain;
+    }
 
-@media screen and (min-width: 1440px) {}
+    @media (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .footer {
+            background-image: url(../img/footer/elements-tab-2x.png);
+        }
+    }
+    
+    .footer-container {
+        gap: 80px;
+        padding-bottom: unset;
+        background-image: none;
+    }
+
+    .footer-navigation {
+        max-width: 478px;
+    }
+
+    .footer-menu {
+        flex-wrap: nowrap;
+        gap: 25px;
+    }
+
+    .footer-menu-item {
+        width: unset;
+    }
+
+    .second {
+        order: 0;
+    }
+    
+    .fourth {
+        order: 0;
+    }
+        
+    .footer-text {
+        max-width: 521px;
+        font-size: 54px;
+        line-height: 1.19;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {   
+        background-image: url(../img/footer/elements-desk1280.png);
+    }
+    
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .footer {
+            background-image: url(../img/footer/elements-desk1280-2x.png);
+        }
+    }
+
+    .footer-container {
+        gap: 117px;
+    }
+
+    .footer-text {
+        max-width: 754px;
+        font-size: 64px;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer {
+        background-image: url(../img/footer/elements-desk1440.png);
+    }
+    
+    @media (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .footer {
+            background-image: url(../img/footer/elements-desk1440-2x.png);
+        }
+    }
+}
