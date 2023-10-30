@@ -105,7 +105,6 @@
   .hero-container {
     display: flex;
     justify-content: space-between;
-    width: 768px;
     padding: 0 32px;
     background-image: url('../img/hero/heroarm.png');
     background-repeat: no-repeat;
@@ -130,6 +129,28 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .hero-container {
+  }
+  .hero-title-container {
+    max-width: 518px;
+  }
+  .hero-title {
+    width: 100%;
+  }
+  .hero-wrapper {
+    padding-top: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+  .hero-girl {
+    width: 392px;
+  }
+
+  .hero-sun {
+    margin-top: 14px;
+  }
+
   .section-hero {
     padding: 100px 0 75px;
   }
