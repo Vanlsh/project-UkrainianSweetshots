@@ -7,7 +7,6 @@ button {
   margin: 0;
   padding: 0;
 }
-
 .header-container {
   margin-top: 20px;
   padding-top: 4px;
@@ -15,8 +14,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
   align-items: center;
 }
 .logo-header {
@@ -104,8 +101,6 @@ button {
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  border: 1px solid rgba(28, 34, 37, 0.1);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-link {
   color: #1c2225;
@@ -151,9 +146,6 @@ button {
   pointer-events: auto;
 }
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
   .header-mob-menu {
     width: 380px;
     padding: 32px 20px 0 32px;
@@ -171,7 +163,76 @@ button {
     }
   }
 }
+
 @media screen and (min-width: 1280px) {
+  .header-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .header-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 20px 0 60px;
+  }
+  .header-menu-link-btn {
+    display: none;
+  }
+
+  .header-nav-item {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    top: 0;
+  }
+  .header-nav-item {
+    color: var(--white-color);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28em;
+    text-transform: uppercase;
+  }
+  .header-nav-item:hover,
+  .header-nav-item:focus,
+  .header-nav-item:active {
+    color: var(--gold-color);
+  }
+  .header-connecting {
+    gap: 20px;
+  }
+  .header-nav-tel {
+    color: var(--white-color);
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16em;
+    text-transform: uppercase;
+    display: flex;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-nav-tel:hover,
+  .header-nav-tel:focus,
+  .header-nav-tel:active {
+    border-color: var(--gold-color);
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header-nav {
+    display: none;
+  }
+  .overlay {
+    display: none;
+  }
 }
 @media screen and (min-width: 1440px) {
 }
