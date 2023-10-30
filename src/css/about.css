@@ -32,6 +32,7 @@ width: 100%;
 @media screen and (min-width: 768px) {
 .about {
     padding: 50px 0 50px;
+    max-width: 768px;
 }
 .about-text {
     display: inline;
@@ -43,6 +44,7 @@ width: 100%;
 @media screen and (min-width: 1280px) {
 .about {
     padding: 75px 0 80px;
+    max-width: 1280px;
 }
 .about-container {
     display: flex;
@@ -57,4 +59,7 @@ width: 100%;
 
 }
 @media screen and (min-width: 1440px) {
+    .about{
+        max-width: 1440px;
+    }
 }
