@@ -1,8 +1,104 @@
-@media screen and (min-width: 375px) {
+.our-collection {
+  padding-top: 18px;
+  padding-bottom: 40px;
+  background-image: url(../img/collection/Background-img-collection.png);
+  background-repeat: no-repeat;
+  background-position: top 298px left 0;
 }
+
+.collection-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .our-collection {
+    background-image: url(../img/collection/Background-img-collection-2x.png);
+    background-size: 72px 177px;
+  }
+}
+
+.collection-title {
+  margin-bottom: 40px;
+}
+.collection-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.collection-item-img {
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+
+.collection-item-name {
+  overflow: hidden;
+  color: var(--white-color);
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1; /* 100% */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.collection-item-cost {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  line-height: 1; /* 100% */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 768px) {
+  .our-collection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/collection/Background-img-collection-tablet.png);
+    background-position: top 221px left 0;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .our-collection {
+      background-image: url(../img/collection/Background-img-collection-tablet-2x.png);
+      background-size: 114px 300px;
+    }
+  }
+  .collection-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .collection-list-item {
+    width: calc((100% - 20px) / 2);
+  }
 }
+
 @media screen and (min-width: 1280px) {
-}
-@media screen and (min-width: 1440px) {
+  .our-collection {
+    padding-top: 70px;
+    padding-bottom: 75px;
+    background-image: url(../img/collection/Background-img-collection-desktop.png);
+    background-position: top 291px left 0;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .our-collection {
+      background-image: url(../img/collection/Background-img-collection-desktop-2x.png);
+      background-size: 169px 300px;
+    }
+  }
+  .collection-list-item {
+    width: calc((100% - 40px) / 3);
+  }
 }
