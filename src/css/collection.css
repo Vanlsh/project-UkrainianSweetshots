@@ -97,7 +97,7 @@
 
   .collection-container {
     background-image: url(../img/collection/Background-img-collection-desktop.png);
-    background-position: top 221px left 0;
+    background-position: top 221px left -141px;
   }
 
   @media (min-device-pixel-ratio: 2),
