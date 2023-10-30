@@ -1,5 +1,6 @@
 .order-section {
   padding-top: 670px;
+  padding-bottom: 40px;
   background-image: url('../img/order/order-bg-gg-mob-1x.jpg');
   background-repeat: no-repeat;
   background-position: top 40px center;
@@ -30,14 +31,6 @@
   justify-content: space-between;
 }
 
-.order-input-wrap {
-  margin-bottom: 20px;
-}
-
-.order-textarea-wrap {
-  margin-bottom: 40px;
-}
-
 .order-input {
   height: 47px;
   width: 100%;
@@ -53,6 +46,7 @@
   letter-spacing: 0.02em;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 20px;
 }
 
 .order-input:focus-within {
@@ -75,6 +69,7 @@
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 40px;
 }
 
 .order-textarea:focus-within {
