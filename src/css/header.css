@@ -233,6 +233,10 @@ button {
   .overlay {
     display: none;
   }
+  .header-nav-tel {
+    display: none;
+  }
 }
+
 @media screen and (min-width: 1440px) {
 }
