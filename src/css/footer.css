@@ -62,6 +62,10 @@
     color: var(--gold-color);
 }
 
+.footer-menu-link:focus-visible {
+    outline: none;
+}
+
 .footer-text {
     color: var(--white-color);
     font-size: 44px;
