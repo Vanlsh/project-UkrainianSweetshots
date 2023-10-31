@@ -68,6 +68,15 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .testimonials-list {
+    display: flex;
+    gap: 26px;
+  }
+
+  .testimonials-item {
+    flex-basis: calc((100% - 52px) / 3);
+  }
+
   .testimonials-item:not(:first-child) {
     display: block;
   }
