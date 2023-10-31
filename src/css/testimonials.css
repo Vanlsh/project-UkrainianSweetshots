@@ -68,6 +68,13 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .testimonials-item:not(:first-child) {
+    display: block;
+  }
+
+  .testimonials {
+    padding: 150px 0;
+  }
 }
 @media screen and (min-width: 1440px) {
 }
