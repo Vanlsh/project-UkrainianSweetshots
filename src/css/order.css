@@ -114,11 +114,9 @@
   fill: var(--gold-color);
   height: 100%;
 }
-@media screen and (min-width: 375px) {
-}
 @media screen and (min-width: 768px) {
   .order-section {
-    padding-top: 950px;
+    padding-top: 926px;
     padding-bottom: 79px;
     background-image: url('../img/order/order-bg-gg-tab-1x.jpg'),
       url('../img/order/order-ornament.png');
