@@ -239,4 +239,7 @@ button {
 }
 
 @media screen and (min-width: 1440px) {
+  .header-container {
+    margin-top: 18px;
+  }
 }
