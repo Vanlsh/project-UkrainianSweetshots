@@ -56,7 +56,7 @@
 .order-textarea {
   height: 196px;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 8px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   padding: 14px 16px;
   background-color: inherit;
@@ -159,13 +159,15 @@
     line-height: 1.31;
   }
 
+  .order-form {
+    max-width: 508px;
+  }
+
   .order-input {
     height: 50px;
-    max-width: 508px;
     font-size: 16px;
   }
   .order-textarea {
-    max-width: 508px;
     font-size: 16px;
   }
 
