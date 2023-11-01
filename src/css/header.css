@@ -170,10 +170,6 @@ button {
 }
 
 @media screen and (min-width: 1280px) {
-  .header-container {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
   .header-nav-container {
     display: flex;
     align-items: center;
