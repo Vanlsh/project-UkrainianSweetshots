@@ -120,7 +120,6 @@
   }
   .hero-arm-img {
     position: absolute;
-    /* bottom: -88px; */
     bottom: 0;
     right: 0;
     transform: translateY(50%);
