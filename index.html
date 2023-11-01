@@ -19,8 +19,8 @@
     />
     <title>Ukrainian Sweet Shots</title>
     
-    <script type="module" crossorigin src="/project-UkrainianSweetshots/assets/index-4598276d.js"></script>
-    <link rel="stylesheet" href="/project-UkrainianSweetshots/assets/index-7ccbddf0.css">
+    <script type="module" crossorigin src="/project-UkrainianSweetshots/assets/index-02e3316e.js"></script>
+    <link rel="stylesheet" href="/project-UkrainianSweetshots/assets/index-76c86ab5.css">
   </head>
   <body>
     <header class="header">
@@ -441,6 +441,9 @@
           name="order_username"
           id="order_username"
           placeholder="Enter your full name"
+          required
+          pattern="[A-Za-zА-Яа-яЁёІіЇїЄєҐґ\s]+"
+          title="Please enter your full name (letters and spaces only)"
         />
         <input
           class="order-input"
@@ -448,10 +451,13 @@
           name="order_email"
           id="order_email"
           placeholder="Enter your email"
+          required
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
+          title="Please enter a valid email address"
         />
         <textarea
           class="order-textarea"
-          name="order-comments"
+          name="order_comments"
           placeholder="Comments"
           id="user-comments"
         ></textarea>
