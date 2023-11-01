@@ -72,6 +72,9 @@
   width: 115px;
   text-align: center;
 }
+.hero-arm-img {
+  display: none;
+}
 
 /* -----------------------------768px--------------------- */
 @media screen and (min-width: 768px) {
@@ -104,18 +107,7 @@
 
   .hero-container {
     display: flex;
-    justify-content: space-between;
-    background-image: url('../img/hero/heroarm.png');
-    background-repeat: no-repeat;
-    background-position: bottom -100px right 23px;
-    background-size: 139px 197px;
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-container {
-      background-image: url('../img/hero/heroarm2x.png');
-    }
+    position: relative;
   }
 
   .section-hero {
@@ -123,6 +115,14 @@
   }
 
   .hero-sun {
+    display: block;
+  }
+  .hero-arm-img {
+    position: absolute;
+    /* bottom: -88px; */
+    bottom: 0;
+    right: 0;
+    transform: translateY(50%);
     display: block;
   }
 }
