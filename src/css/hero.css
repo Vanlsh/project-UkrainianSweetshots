@@ -61,6 +61,10 @@
 .hero-girl-img {
   border-radius: 4px;
 }
+.hero-img-girl img {
+  object-fit: cover;
+  height: 545px;
+}
 
 .hero-sun {
   display: none;
@@ -89,11 +93,8 @@
     letter-spacing: -0.03em;
     margin-bottom: 40px;
   }
-  .hero-girl {
-    width: 413px;
-  }
-  .hero-girl img {
-    width: 100%;
+  .hero-img-girl img {
+    height: auto;
   }
   .hero-button {
     margin-left: 141px;
@@ -140,9 +141,6 @@
     padding-top: 0;
     flex-direction: row;
     gap: 40px;
-  }
-  .hero-girl {
-    width: 392px;
   }
 
   .hero-sun {
