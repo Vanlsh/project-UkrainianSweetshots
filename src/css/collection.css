@@ -90,6 +90,10 @@
     background-position: top 291px left 0;
   }
 
+  .collection-list {
+    row-gap: 40px;
+  }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
