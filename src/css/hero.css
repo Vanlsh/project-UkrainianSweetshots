@@ -61,6 +61,10 @@
 .hero-girl-img {
   border-radius: 4px;
 }
+.hero-img-girl img {
+  object-fit: cover;
+  height: 545px;
+}
 
 .hero-sun {
   display: none;
@@ -71,6 +75,9 @@
 .hero-sun-text {
   width: 115px;
   text-align: center;
+}
+.hero-arm-img {
+  display: none;
 }
 
 /* -----------------------------768px--------------------- */
@@ -86,11 +93,8 @@
     letter-spacing: -0.03em;
     margin-bottom: 40px;
   }
-  .hero-girl {
-    width: 413px;
-  }
-  .hero-girl img {
-    width: 100%;
+  .hero-img-girl img {
+    height: auto;
   }
   .hero-button {
     margin-left: 141px;
@@ -104,18 +108,7 @@
 
   .hero-container {
     display: flex;
-    justify-content: space-between;
-    background-image: url('../img/hero/heroarm.png');
-    background-repeat: no-repeat;
-    background-position: bottom -100px right 23px;
-    background-size: 139px 197px;
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-container {
-      background-image: url('../img/hero/heroarm2x.png');
-    }
+    position: relative;
   }
 
   .section-hero {
@@ -123,6 +116,13 @@
   }
 
   .hero-sun {
+    display: block;
+  }
+  .hero-arm-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(50%);
     display: block;
   }
 }
@@ -140,9 +140,6 @@
     padding-top: 0;
     flex-direction: row;
     gap: 40px;
-  }
-  .hero-girl {
-    width: 392px;
   }
 
   .hero-sun {
