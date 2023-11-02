@@ -109,6 +109,8 @@
   .hero-container {
     display: flex;
     position: relative;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   .section-hero {
@@ -121,7 +123,7 @@
   .hero-arm-img {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 32px;
     transform: translateY(50%);
     display: block;
   }
@@ -132,6 +134,7 @@
     max-width: 518px;
     padding-top: 94px;
   }
+
   .hero-title {
     line-height: 1.185;
     width: 100%;
@@ -144,6 +147,10 @@
 
   .hero-sun {
     margin-top: 14px;
+  }
+
+  .hero-arm-img {
+    right: 15px;
   }
 
   .section-hero {
