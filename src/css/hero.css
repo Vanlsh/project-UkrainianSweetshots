@@ -135,11 +135,6 @@
     padding-top: 94px;
   }
 
-  .hero-container {
-    display: flex;
-    position: relative;
-  }
-
   .hero-title {
     line-height: 1.185;
     width: 100%;
