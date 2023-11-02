@@ -52,6 +52,9 @@ button {
   border: 1px solid var(--gold-color);
   background-color: transparent;
 }
+.header-icons-link:focus-visible {
+  outline: none;
+}
 .header-icons-svg {
   fill: var(--white-color);
 }
@@ -202,6 +205,9 @@ button {
   .header-nav-link:active {
     color: var(--gold-color);
   }
+  .header-nav-link:focus-visible {
+    outline: none;
+  }
   .header-connecting {
     gap: 20px;
   }
@@ -225,6 +231,9 @@ button {
   .header-nav-tel:focus,
   .header-nav-tel:active {
     border-color: var(--gold-color);
+  }
+  .header-nav-tel:focus-visible {
+    outline: none;
   }
 }
 
